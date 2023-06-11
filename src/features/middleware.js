@@ -8,6 +8,11 @@ export const logger = store => next => action => {
     }
 }
 
+
+
+
+
+
 // export const logger = store => next => action => {
 //     console.log('dispatch', store.getState())
 //     next(action)
